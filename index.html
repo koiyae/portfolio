@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Document</title>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+<h1 class="title" id="texto-da-silva"></h1>
+<script>
+    let typed = new Typed('#texto-da-silva', {
+        strings: ['AD MAIOREM DEI GLORIAM'],
+        typeSpeed: 50,
+        showCursor: false,
+        onComplete: (self) => {
+            self.cursor.remove();
+        }
+    });
+</script>
+<div class="circle"></div>
+<div>
+    <h1 class="nome">Bruno Simões</h1>
+</div>
+<div class="div-container">
+    <a href="https://github.com/koiyae" target="_blank">
+        <div class="div-inner">
+            <img class="img github" alt="github" src="imgs/github.png">
+        </div>
+    </a>
+</div>
+<div class="div-container">
+    <a href="#" target="_blank">
+        <div class="div-inner">
+            <img class="img twitter" alt="twitter" src="imgs/x.png">
+        </div>
+    </a>
+</div>
+<div class="div-container">
+    <a href="https://youtube.com/@rudinm" target="_blank">
+        <div class="div-inner">
+            <img class="img youtube" alt="youtube" src="imgs/youtube.png">
+        </div>
+    </a>
+</div>
+<div class="div-container" id="discord">
+    <img class="img discord" src="imgs/discord.png" alt="haha">
+</div>
+</body>
+</html>
