@@ -20,18 +20,18 @@ body {
 .nome {
     font-family: "Playfair Display";
     font-size: 55px;
-    color: rgb(255, 255, 255);
+    color: #fdd49e;
     margin-top: -15px;
     margin-bottom: 10px;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #525252;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
 }
 
 .title {
     display: flex;
     font-family: "Times New Roman", cursive;
     font-weight: bold;
-    color: #ffffff;
+    color: #fdd49e;
     font-size: 60px;
     position: absolute;
     top: 20px;
