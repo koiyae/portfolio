@@ -19,11 +19,11 @@ body {
 
 .nome {
     font-family: "Transforma Mix_Trial";
-    font-size: 55px;
+    font-size: 60px;
     color: #ffffff;
     margin-top: -15px;
     margin-bottom: 10px;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000000;
 }
 
