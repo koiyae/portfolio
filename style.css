@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Transforma Mix_Trial';
+    src: url('fonts/TransformaMix_Trial.woff2') format('woff2'),
+         url('fonts/TransformaMix_Trial.woff') format('woff'),
+         url('fonts/TransformaMix_Trial.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
